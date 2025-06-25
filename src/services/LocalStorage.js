@@ -1,5 +1,3 @@
-// src/services/localStorage.js
-
 const ACTIVITIES_KEY = 'actividades';
 
 export function guardarActividades(data) {

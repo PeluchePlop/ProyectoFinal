@@ -3,8 +3,9 @@ import ActivityForm from './components/ActivityForm';
 import RoutineList from './components/RoutineList';
 import EmotionTracker from './components/EmotionTracker';
 import QuoteBox from './components/QuoteBox';
-import Dashboard from './pages/Dashboard'; // 👈 Desde /pages
+import Dashboard from './pages/Dashboard';
 import { guardarActividades, obtenerActividades } from './services/localStorage';
+import Bienestar from './components/Bienestar';
 
 function App() {
   const [actividades, setActividades] = useState([]);
@@ -30,6 +31,8 @@ function App() {
     <div className="container mt-5">
       <h2 className="text-center mb-4">Planificador de Bienestar</h2>
 
+      <Bienestar />
+
       <ActivityForm onAddActivity={agregarActividad} />
       <hr />
 
@@ -44,3 +47,4 @@ function App() {
 }
 
 export default App;
+

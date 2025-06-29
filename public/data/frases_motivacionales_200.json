@@ -1,0 +1,802 @@
+[
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No hay ascensor al éxito, tienes que tomar las escaleras.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "La disciplina tarde o temprano vencerá al talento.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "El único límite es el que tú mismo te impones.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Cada día es una nueva oportunidad para cambiar tu vida.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Persiste hasta que lo consigas.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "No te detengas cuando estés cansado. Detente cuando hayas terminado.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Las grandes cosas nunca vienen de zonas de confort.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Nunca renuncies a un sueño por el tiempo que tomará lograrlo.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No te compares con otros. Compárate con la persona que eras ayer.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No esperes por la oportunidad. Créala.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Todo lo que puedas imaginar es real.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "El secreto para salir adelante es comenzar.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Nunca es tarde para ser quien podrías haber sido.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Si puedes soñarlo, puedes hacerlo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No busques los errores, busca el remedio.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Hazlo con pasión o no lo hagas en absoluto.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Todo lo que siempre has querido está al otro lado del miedo.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Tu actitud, no tu aptitud, determinará tu altitud.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "La acción es la clave fundamental para todo éxito.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Todo lo que importa es que lo intentes.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Tú eres el único que puede cambiar tu vida.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "El único límite para alcanzar tus sueños eres tú mismo.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No sueñes tu vida, vive tu sueño.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Aprovecha cada día como si fuera el último.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Sé el cambio que quieres ver en el mundo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "A veces, la mejor forma de crecer es dejar ir.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Tu tiempo es limitado, no lo desperdicies viviendo la vida de otro.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Aprende a valorar lo que tienes antes de que el tiempo te enseñe a valorar lo que perdiste.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No esperes oportunidades, créalas.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "No hay ascensor al éxito, tienes que tomar las escaleras.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "La disciplina tarde o temprano vencerá al talento.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "El único límite es el que tú mismo te impones.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Cada día es una nueva oportunidad para cambiar tu vida.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Persiste hasta que lo consigas.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No te detengas cuando estés cansado. Detente cuando hayas terminado.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Las grandes cosas nunca vienen de zonas de confort.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Nunca renuncies a un sueño por el tiempo que tomará lograrlo.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No te compares con otros. Compárate con la persona que eras ayer.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No esperes por la oportunidad. Créala.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Todo lo que puedas imaginar es real.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "El secreto para salir adelante es comenzar.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Nunca es tarde para ser quien podrías haber sido.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Si puedes soñarlo, puedes hacerlo.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No busques los errores, busca el remedio.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Hazlo con pasión o no lo hagas en absoluto.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Todo lo que siempre has querido está al otro lado del miedo.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Tu actitud, no tu aptitud, determinará tu altitud.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "La acción es la clave fundamental para todo éxito.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Todo lo que importa es que lo intentes.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Tú eres el único que puede cambiar tu vida.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "El único límite para alcanzar tus sueños eres tú mismo.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No sueñes tu vida, vive tu sueño.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Aprovecha cada día como si fuera el último.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Sé el cambio que quieres ver en el mundo.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "A veces, la mejor forma de crecer es dejar ir.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Tu tiempo es limitado, no lo desperdicies viviendo la vida de otro.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Aprende a valorar lo que tienes antes de que el tiempo te enseñe a valorar lo que perdiste.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No esperes oportunidades, créalas.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "No hay ascensor al éxito, tienes que tomar las escaleras.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "La disciplina tarde o temprano vencerá al talento.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "El único límite es el que tú mismo te impones.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Cada día es una nueva oportunidad para cambiar tu vida.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Persiste hasta que lo consigas.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No te detengas cuando estés cansado. Detente cuando hayas terminado.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Las grandes cosas nunca vienen de zonas de confort.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Nunca renuncies a un sueño por el tiempo que tomará lograrlo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No te compares con otros. Compárate con la persona que eras ayer.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No esperes por la oportunidad. Créala.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Todo lo que puedas imaginar es real.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "El secreto para salir adelante es comenzar.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Nunca es tarde para ser quien podrías haber sido.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Si puedes soñarlo, puedes hacerlo.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "No busques los errores, busca el remedio.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Hazlo con pasión o no lo hagas en absoluto.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Todo lo que siempre has querido está al otro lado del miedo.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Tu actitud, no tu aptitud, determinará tu altitud.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "La acción es la clave fundamental para todo éxito.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Todo lo que importa es que lo intentes.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Tú eres el único que puede cambiar tu vida.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "El único límite para alcanzar tus sueños eres tú mismo.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No sueñes tu vida, vive tu sueño.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Aprovecha cada día como si fuera el último.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Sé el cambio que quieres ver en el mundo.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "A veces, la mejor forma de crecer es dejar ir.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Tu tiempo es limitado, no lo desperdicies viviendo la vida de otro.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Aprende a valorar lo que tienes antes de que el tiempo te enseñe a valorar lo que perdiste.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No esperes oportunidades, créalas.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No hay ascensor al éxito, tienes que tomar las escaleras.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "La disciplina tarde o temprano vencerá al talento.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "El único límite es el que tú mismo te impones.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Cada día es una nueva oportunidad para cambiar tu vida.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Persiste hasta que lo consigas.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "No te detengas cuando estés cansado. Detente cuando hayas terminado.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Las grandes cosas nunca vienen de zonas de confort.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Nunca renuncies a un sueño por el tiempo que tomará lograrlo.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No te compares con otros. Compárate con la persona que eras ayer.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No esperes por la oportunidad. Créala.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Todo lo que puedas imaginar es real.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "El secreto para salir adelante es comenzar.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Nunca es tarde para ser quien podrías haber sido.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Si puedes soñarlo, puedes hacerlo.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "No busques los errores, busca el remedio.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Hazlo con pasión o no lo hagas en absoluto.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Todo lo que siempre has querido está al otro lado del miedo.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Tu actitud, no tu aptitud, determinará tu altitud.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "La acción es la clave fundamental para todo éxito.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Todo lo que importa es que lo intentes.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Tú eres el único que puede cambiar tu vida.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "El único límite para alcanzar tus sueños eres tú mismo.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No sueñes tu vida, vive tu sueño.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Aprovecha cada día como si fuera el último.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Sé el cambio que quieres ver en el mundo.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "A veces, la mejor forma de crecer es dejar ir.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Tu tiempo es limitado, no lo desperdicies viviendo la vida de otro.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Aprende a valorar lo que tienes antes de que el tiempo te enseñe a valorar lo que perdiste.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No esperes oportunidades, créalas.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "No hay ascensor al éxito, tienes que tomar las escaleras.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "La disciplina tarde o temprano vencerá al talento.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "El único límite es el que tú mismo te impones.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Cada día es una nueva oportunidad para cambiar tu vida.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Persiste hasta que lo consigas.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "No te detengas cuando estés cansado. Detente cuando hayas terminado.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Las grandes cosas nunca vienen de zonas de confort.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Nunca renuncies a un sueño por el tiempo que tomará lograrlo.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "No te compares con otros. Compárate con la persona que eras ayer.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No esperes por la oportunidad. Créala.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Todo lo que puedas imaginar es real.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "El secreto para salir adelante es comenzar.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Nunca es tarde para ser quien podrías haber sido.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Si puedes soñarlo, puedes hacerlo.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Cambia tus pensamientos y cambiarás tu mundo.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "No busques los errores, busca el remedio.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Hazlo con pasión o no lo hagas en absoluto.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "Todo lo que siempre has querido está al otro lado del miedo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "Tu actitud, no tu aptitud, determinará tu altitud.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "La acción es la clave fundamental para todo éxito.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "texto": "Todo lo que importa es que lo intentes.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Tú eres el único que puede cambiar tu vida.",
+    "autor": "Helen Keller"
+  },
+  {
+    "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "texto": "El único límite para alcanzar tus sueños eres tú mismo.",
+    "autor": "Anónimo"
+  },
+  {
+    "texto": "No sueñes tu vida, vive tu sueño.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "texto": "Aprovecha cada día como si fuera el último.",
+    "autor": "Confucio"
+  },
+  {
+    "texto": "Sé el cambio que quieres ver en el mundo.",
+    "autor": "Mahatma Gandhi"
+  }
+]

@@ -17,7 +17,7 @@ const Bienestar = () => {
   useEffect(() => {
     const cargarFrases = async () => {
       try {
-        const res = await fetch('/data/frases_motivacionales_unicas.json');
+        const res = await fetch('/data/frases_motivacionales_200.json');
         const data = await res.json();
         setFrases(data);
         const aleatoria = data[Math.floor(Math.random() * data.length)];
@@ -37,7 +37,7 @@ const Bienestar = () => {
 
   return (
     <div style={{
-      backgroundColor: '#fff8e1',
+      backgroundColor: '#c994f0',
       minHeight: '100vh',
       display: 'flex',
       justifyContent: 'center',
@@ -54,7 +54,7 @@ const Bienestar = () => {
         boxShadow: '0 8px 16px rgba(0,0,0,0.1)',
         color: '#333'
       }}>
-        <h2 style={{ color: '#ff6f00', marginBottom: '1.5rem' }}>✨ Tarjeta Motivacional ✨</h2>
+        <h2 style={{ color: '#4dc268', marginBottom: '1.5rem' }}>Tarjeta Motivacional </h2>
 
         {cargando ? (
           <p>Cargando frase...</p>
@@ -70,7 +70,7 @@ const Bienestar = () => {
           disabled={cargando}
           style={{
             marginTop: '2rem',
-            backgroundColor: '#ff6f00',
+            backgroundColor: '#58b454',
             color: 'white',
             border: 'none',
             padding: '0.75rem 1.5rem',

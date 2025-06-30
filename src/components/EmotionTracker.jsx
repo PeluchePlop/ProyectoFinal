@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './EmotionTracker.css';
 
 const EMOCIONES_KEY = 'emociones';
 
@@ -28,32 +29,38 @@ const EmotionTracker = () => {
   };
 
   return (
-    <div className="mt-5">
-      <h4>¿Cómo te sientes hoy?</h4>
+    <div className="emotion-box">
+      <h3>¿Cómo te sientes hoy?</h3>
       <select
-        className="form-select my-2"
         value={emocion}
         onChange={(e) => setEmocion(e.target.value)}
+        className="emotion-select"
       >
         <option value="">Selecciona una emoción</option>
         {emociones.map((e) => (
           <option key={e} value={e}>{e}</option>
         ))}
       </select>
-      <button className="btn btn-success" onClick={registrarEmocion}>Registrar</button>
+      <button className="emotion-button" onClick={registrarEmocion}>Registrar</button>
 
-      <div className="mt-3">
-        <h5>Historial Emocional</h5>
-        <ul className="list-group">
-          {historial.map((item, index) => (
-            <li key={index} className="list-group-item">
-              {item.fecha} - {item.emocion}
-            </li>
-          ))}
-        </ul>
+      <div className="emotion-history">
+        <h4>Historial Emocional</h4>
+        {historial.length === 0 ? (
+          <p>No hay emociones registradas aún.</p>
+        ) : (
+          <ul>
+            {historial.map((item, index) => (
+              <li key={index}>
+                <span className="fecha">{item.fecha}</span>
+                <span className="emocion">{item.emocion}</span>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
 };
 
 export default EmotionTracker;
+

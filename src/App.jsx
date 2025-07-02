@@ -1,22 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ActivityForm from './components/ActivityForm';
-import RoutineList from './components/RoutineList';
 import EmotionTracker from './components/EmotionTracker';
-import QuoteBox from './components/QuoteBox';
-import Dashboard from './pages/Dashboard';
-import { guardarActividades, obtenerActividades } from './services/localStorage';
+import RoutineList from './components/RoutineList';
+import Summary from './components/Summary';
 import Bienestar from './components/Bienestar';
 
-function App() {
-  const [actividades, setActividades] = useState([]);
+const App = () => {
+  const [actividades, setActividades] = useState(() => {
+    const guardadas = localStorage.getItem('actividades');
+    return guardadas ? JSON.parse(guardadas) : [];
+  });
 
   useEffect(() => {
-    const datosGuardados = obtenerActividades();
-    setActividades(datosGuardados);
-  }, []);
-
-  useEffect(() => {
-    guardarActividades(actividades);
+    localStorage.setItem('actividades', JSON.stringify(actividades));
   }, [actividades]);
 
   const agregarActividad = (actividad) => {
@@ -28,23 +24,34 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
-      <h2 className="text-center mb-4">Planificador de Bienestar</h2>
+    <div className="app-container">
+      <h1>🌿 Planificador de Bienestar</h1>
 
-      <Bienestar />
+      <div className="section-box">
+        <Bienestar />
+      </div>
 
-      <ActivityForm onAddActivity={agregarActividad} />
-      <hr />
+      <div className="row">
+        <div className="column section-box">
+          <ActivityForm onAddActivity={agregarActividad} />
+        </div>
+        <div className="column section-box">
+          <RoutineList actividades={actividades} onDelete={eliminarActividad} />
+        </div>
+      </div>
 
-      <RoutineList actividades={actividades} onDelete={eliminarActividad} />
-      <hr />
+      <div className="section-box">
+        <EmotionTracker />
+      </div>
 
-      <EmotionTracker />
-      <QuoteBox />
-      <Dashboard actividades={actividades} setActividades={setActividades} />
+      <div className="footer-box">
+        <Summary actividades={actividades} />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
+
+
 

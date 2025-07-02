@@ -37,8 +37,8 @@ const Bienestar = () => {
 
   return (
     <div style={{
-      backgroundColor: '#c994f0',
-      minHeight: '100vh',
+      backgroundColor: '#a158cc',
+      minHeight: '10vh',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
@@ -51,7 +51,7 @@ const Bienestar = () => {
         padding: '2rem',
         maxWidth: '600px',
         textAlign: 'center',
-        boxShadow: '0 8px 16px rgba(0,0,0,0.1)',
+        boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)',
         color: '#333'
       }}>
         <h2 style={{ color: '#4dc268', marginBottom: '1.5rem' }}>Tarjeta Motivacional </h2>

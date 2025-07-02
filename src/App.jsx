@@ -23,6 +23,14 @@ const App = () => {
     setActividades(actividades.filter((act) => act.id !== id));
   };
 
+  const borrarTodasLasActividades = () => {
+    const confirmar = window.confirm("¿Estás seguro de que quieres borrar todas las actividades?");
+    if (confirmar) {
+      setActividades([]); // limpia el estado
+      localStorage.removeItem('actividades'); // limpia localStorage
+    }
+  };
+
   return (
     <div className="app-container">
       <h1>🌿 Planificador de Bienestar</h1>
@@ -45,13 +53,13 @@ const App = () => {
       </div>
 
       <div className="footer-box">
-        <Summary actividades={actividades} />
+        <Summary 
+          actividades={actividades} 
+          onClear={borrarTodasLasActividades}
+        />
       </div>
     </div>
   );
 };
 
 export default App;
-
-
-

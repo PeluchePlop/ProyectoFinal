@@ -24,6 +24,12 @@ const App = () => {
     setActividades(actividades.filter((act) => act.id !== id));
   };
 
+  const actualizarActividad = (id, nuevaActividad) => {
+    setActividades((prev) =>
+      prev.map((act) => (act.id === id ? nuevaActividad : act))
+    );
+  };
+
   const borrarTodasLasActividades = () => {
     const confirmar = window.confirm("¿Estás seguro de que quieres borrar todas las actividades?");
     if (confirmar) {
@@ -49,9 +55,10 @@ const App = () => {
           <ActivityForm onAddActivity={agregarActividad} />
         </div>
         <div className="column section-box">
-          <RoutineList 
-            actividades={actividades} 
-            onDelete={eliminarActividad} 
+          <RoutineList
+            actividades={actividades}
+            onDelete={eliminarActividad}
+            onUpdate={actualizarActividad}  // <-- Aquí se pasa la función para actualizar
           />
         </div>
       </div>
@@ -61,8 +68,8 @@ const App = () => {
       </div>
 
       <div className="footer-box">
-        <Summary 
-          actividades={actividades} 
+        <Summary
+          actividades={actividades}
           onClear={borrarTodasLasActividades}
         />
       </div>
@@ -71,3 +78,4 @@ const App = () => {
 };
 
 export default App;
+

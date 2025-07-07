@@ -1,12 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './EmotionTracker.css';
 
+const emociones = [
+  { nombre: 'Feliz', emoji: '😊' },
+  { nombre: 'Neutral', emoji: '😐' },
+  { nombre: 'Triste', emoji: '😢' },
+  { nombre: 'Enojado', emoji: '😡' },
+  { nombre: 'Cansado', emoji: '😴' },
+  { nombre: 'Amado', emoji: '🥰' },
+  { nombre: 'Estresado', emoji: '🤯' },
+  { nombre: 'Relajado', emoji: '😌' }
+];
+
 const EMOCIONES_KEY = 'emociones';
 
-const emociones = ['😊 Feliz', '😐 Neutral', '😢 Triste', '😡 Enojado', '😴 Cansado'];
-
 const EmotionTracker = () => {
-  const [emocion, setEmocion] = useState('');
+  const [emocionSeleccionada, setEmocionSeleccionada] = useState('');
   const [historial, setHistorial] = useState([]);
 
   useEffect(() => {
@@ -19,36 +28,43 @@ const EmotionTracker = () => {
   }, [historial]);
 
   const registrarEmocion = () => {
-    if (!emocion) return;
+    if (!emocionSeleccionada) return;
 
-    const hoy = new Date().toLocaleDateString();
-    const nuevaEntrada = { fecha: hoy, emocion };
+    const ahora = new Date();
+    const fecha = ahora.toLocaleDateString();
+    const hora = ahora.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+    const nuevaEntrada = {
+      fecha,
+      hora,
+      emocion: emocionSeleccionada
+    };
 
     setHistorial([...historial, nuevaEntrada]);
-    setEmocion('');
+    setEmocionSeleccionada('');
   };
 
   return (
     <div className="emotion-box">
       <h3>¿Cómo te sientes hoy?</h3>
 
-      <select
-        value={emocion}
-        onChange={(e) => setEmocion(e.target.value)}
-        className="emotion-select"
-        aria-label="Selecciona una emoción"
-      >
-        <option value="">Selecciona una emoción</option>
+      <div className="emoji-grid">
         {emociones.map((e) => (
-          <option key={e} value={e}>{e}</option>
+          <button
+            key={e.nombre}
+            className={`emoji-button ${emocionSeleccionada === e.nombre ? 'selected' : ''}`}
+            onClick={() => setEmocionSeleccionada(e.nombre)}
+          >
+            <span className="emoji-icon">{e.emoji}</span>
+            <span className="emoji-label">{e.nombre}</span>
+          </button>
         ))}
-      </select>
+      </div>
 
       <button
         className="emotion-button"
         onClick={registrarEmocion}
-        disabled={!emocion}
-        aria-disabled={!emocion}
+        disabled={!emocionSeleccionada}
       >
         Registrar
       </button>
@@ -61,7 +77,7 @@ const EmotionTracker = () => {
           <ul>
             {historial.map((item, index) => (
               <li key={index} className="history-item">
-                <span className="fecha">{item.fecha}</span>
+                <span className="fecha">{item.fecha} - {item.hora}</span>
                 <span className="emocion">{item.emocion}</span>
               </li>
             ))}
@@ -73,5 +89,3 @@ const EmotionTracker = () => {
 };
 
 export default EmotionTracker;
-
-

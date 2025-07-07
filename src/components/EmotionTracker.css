@@ -1,56 +1,133 @@
 .emotion-box {
-  background-color: #ffffff;
-  padding: 24px;
-  border-radius: 12px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 460px;
+  margin: 40px auto;
+  background: #f4e8ff;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 8px 24px rgba(156, 110, 222, 0.25);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b2a8c;
+}
+
+.emotion-box h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .emotion-select {
   width: 100%;
-  padding: 10px;
-  margin: 12px 0;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 2px solid #9c6ede;
+  font-size: 1.1rem;
+  color: #5a2a83;
+  outline-color: #7a4cf5;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 22px;
+}
+
+.emotion-select:focus {
+  border-color: #7a4cf5;
+  box-shadow: 0 0 8px #7a4cf5aa;
 }
 
 .emotion-button {
-  background-color: #4CAF50;
+  background-color: #7a4cf5;
   color: white;
-  padding: 10px 18px;
   border: none;
-  border-radius: 8px;
+  border-radius: 14px;
+  padding: 14px 0;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: background 0.3s;
+  box-shadow: 0 6px 16px rgba(122, 76, 245, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
 }
 
-.emotion-button:hover {
-  background-color: #45a049;
+.emotion-button:disabled,
+.emotion-button[aria-disabled="true"] {
+  background-color: #c8b8f9;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.emotion-button:not(:disabled):hover {
+  background-color: #592ce8;
+  box-shadow: 0 8px 24px rgba(89, 44, 232, 0.7);
 }
 
 .emotion-history {
-  margin-top: 24px;
+  margin-top: 32px;
+}
+
+.emotion-history h4 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+  color: #5a2a83;
+  text-align: center;
+}
+
+.no-history {
+  text-align: center;
+  color: #9c6edeaa;
+  font-style: italic;
+  font-size: 1rem;
+  user-select: none;
 }
 
 .emotion-history ul {
-  list-style-type: none;
-  padding-left: 0;
+  list-style: none;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #9c6ede #f4e8ff;
 }
 
-.emotion-history li {
-  background-color: #eef6ff;
-  padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 8px;
+.emotion-history ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.emotion-history ul::-webkit-scrollbar-track {
+  background: #f4e8ff;
+  border-radius: 16px;
+}
+
+.emotion-history ul::-webkit-scrollbar-thumb {
+  background-color: #9c6ede;
+  border-radius: 16px;
+  border: 2px solid #f4e8ff;
+}
+
+.history-item {
   display: flex;
   justify-content: space-between;
-  font-weight: 500;
+  background-color: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 8px rgba(156, 110, 222, 0.2);
+  font-weight: 600;
+  color: #5a2a83;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.history-item:hover {
+  background-color: #ede6fc;
 }
 
 .fecha {
-  color: #444;
+  font-size: 0.9rem;
+  color: #7a4cf0cc;
 }
 
 .emocion {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }

@@ -12,24 +12,9 @@ const App = () => {
     return guardadas ? JSON.parse(guardadas) : [];
   });
 
-  const [ciudad, setCiudad] = useState("Puerto Montt");
-  const [weatherError, setWeatherError] = useState(null);
-
-
   useEffect(() => {
     localStorage.setItem('actividades', JSON.stringify(actividades));
   }, [actividades]);
-
-
-  useEffect(() => {
-    if (import.meta.env.VITE_WEATHER_API_KEY) {
-      console.log("API Key cargada correctamente");
-    } else {
-      console.error("API Key no encontrada en .env");
-      setWeatherError("Error de configuración del clima");
-    }
-  }, []);
-
 
   const agregarActividad = (actividad) => {
     setActividades([...actividades, { ...actividad, id: Date.now() }]);
@@ -51,29 +36,12 @@ const App = () => {
     <div className="app-container">
       <h1>🌿 Planificador de Bienestar</h1>
 
-      {weatherError && (
-        <div className="alert alert-danger mb-3">
-          {weatherError} - Verifica tu configuración
-        </div>
-      )}
-
       <div className="section-box">
         <Bienestar />
       </div>
 
-      <div className="section-box weather-section">
-        <select 
-  value={ciudad} 
-  onChange={(e) => setCiudad(e.target.value)}
-  className="form-select mb-3"
->
-  <option value="Puerto Montt">Puerto Montt</option>
-  <option value="Santiago">Santiago</option>
-  <option value="Buenos Aires">Buenos Aires</option>
-  <option value="Lima">Lima</option>
-  <option value="London">London (Prueba)</option>
-</select>
-        <WeatherDisplay city={ciudad} />
+      <div className="section-box">
+        <WeatherDisplay />
       </div>
 
       <div className="row">

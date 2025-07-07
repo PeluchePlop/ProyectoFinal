@@ -46,10 +46,7 @@ const App = () => {
         <Bienestar />
       </div>
 
-      <div className="section-box">
-        <WeatherDisplay />
-      </div>
-
+      
       <div className="row">
         <div className="column section-box">
           <ActivityForm onAddActivity={agregarActividad} />
@@ -66,16 +63,21 @@ const App = () => {
       <div className="section-box">
         <EmotionTracker />
       </div>
+      
+     <div className="section-box">
+        <WeatherDisplay />
+      </div>
 
       <div className="footer-box">
+        
         <Summary
           actividades={actividades}
           onClear={borrarTodasLasActividades}
         />
       </div>
+      
     </div>
   );
 };
 
 export default App;
-

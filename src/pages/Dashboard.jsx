@@ -1,29 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import ActivityForm from './components/ActivityForm';
+import EmotionTracker from './components/EmotionTracker';
+import RoutineList from './components/RoutineList';
+import Summary from './components/Summary';
+import Bienestar from './components/Bienestar';
+import WeatherDisplay from './components/WeatherDisplay';
+import EmotionChart from './components/EmotionChart'; // ✅ NUEVA IMPORTACIÓN
 
-const Dashboard = ({ actividades, setActividades }) => {
-  const total = actividades.length;
-
-  const borrarTodo = () => {
-    const confirmar = window.confirm("¿Estás seguro de que quieres eliminar todas las actividades?");
-    if (confirmar) {
-      setActividades([]);
-      localStorage.removeItem('actividades');
-    }
-  };
+const App = () => {
+  // ... estado y funciones
 
   return (
-    <div className="card mt-4">
-      <div className="card-body">
-        <h5 className="card-title">Resumen del Bienestar</h5>
-        <p className="card-text">
-          Total de actividades registradas: <strong>{total}</strong>
-        </p>
-        <button className="btn btn-danger btn-sm" onClick={borrarTodo}>
-          Borrar todas las actividades
-        </button>
+    <div className="app-container">
+      <h1>🌿 Planificador de Bienestar</h1>
+
+      <div className="section-box">
+        <Bienestar />
+      </div>
+
+      <div className="row">
+        <div className="column section-box">
+          <ActivityForm onAddActivity={agregarActividad} />
+        </div>
+        <div className="column section-box">
+          <RoutineList
+            actividades={actividades}
+            onDelete={eliminarActividad}
+            onUpdate={actualizarActividad}
+          />
+        </div>
+      </div>
+
+      <div className="section-box">
+        <EmotionTracker />
+      </div>
+
+      <div className="section-box">
+        <EmotionChart /> {/* ✅ AÑADIDO AQUÍ */}
+      </div>
+
+      <div className="section-box">
+        <WeatherDisplay />
+      </div>
+
+      <div className="footer-box">
+        <Summary
+          actividades={actividades}
+          onClear={borrarTodasLasActividades}
+        />
       </div>
     </div>
   );
 };
 
-export default Dashboard;
+export default App;

@@ -16,9 +16,13 @@ const RoutineList = ({ actividades, onDelete, onUpdate }) => {
   };
 
   const guardarEdicion = () => {
+    if (!editNombre.trim()) {
+      alert("El nombre no puede estar vacío");
+      return;
+    }
     onUpdate(editandoId, {
       id: editandoId,
-      nombre: editNombre,
+      nombre: editNombre.trim(),
       dias: editDias,
     });
     setEditandoId(null);
@@ -203,9 +207,7 @@ const RoutineList = ({ actividades, onDelete, onUpdate }) => {
                 }}
               >
                 <div>
-                  <strong
-                    style={{ fontSize: '1.2rem', color: '#5a2a83' }}
-                  >
+                  <strong style={{ fontSize: '1.2rem', color: '#5a2a83' }}>
                     {actividad.nombre}
                   </strong>
                   <div

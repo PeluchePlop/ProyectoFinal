@@ -31,26 +31,36 @@ const EmotionTracker = () => {
   return (
     <div className="emotion-box">
       <h3>¿Cómo te sientes hoy?</h3>
+
       <select
         value={emocion}
         onChange={(e) => setEmocion(e.target.value)}
         className="emotion-select"
+        aria-label="Selecciona una emoción"
       >
         <option value="">Selecciona una emoción</option>
         {emociones.map((e) => (
           <option key={e} value={e}>{e}</option>
         ))}
       </select>
-      <button className="emotion-button" onClick={registrarEmocion}>Registrar</button>
+
+      <button
+        className="emotion-button"
+        onClick={registrarEmocion}
+        disabled={!emocion}
+        aria-disabled={!emocion}
+      >
+        Registrar
+      </button>
 
       <div className="emotion-history">
         <h4>Historial Emocional</h4>
         {historial.length === 0 ? (
-          <p>No hay emociones registradas aún.</p>
+          <p className="no-history">No hay emociones registradas aún.</p>
         ) : (
           <ul>
             {historial.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="history-item">
                 <span className="fecha">{item.fecha}</span>
                 <span className="emocion">{item.emocion}</span>
               </li>
@@ -63,4 +73,5 @@ const EmotionTracker = () => {
 };
 
 export default EmotionTracker;
+
 

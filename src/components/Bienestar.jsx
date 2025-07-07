@@ -54,7 +54,7 @@ const Bienestar = () => {
         boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)',
         color: '#333'
       }}>
-        <h2 style={{ color: '#4dc268', marginBottom: '1.5rem' }}>Tarjeta Motivacional </h2>
+        <h2 style={{ color: '#d4ca00', marginBottom: '1.5rem' }}>Tarjeta Motivacional </h2>
 
         {cargando ? (
           <p>Cargando frase...</p>
@@ -70,7 +70,7 @@ const Bienestar = () => {
           disabled={cargando}
           style={{
             marginTop: '2rem',
-            backgroundColor: '#58b454',
+            backgroundColor: '#d4ca00',
             color: 'white',
             border: 'none',
             padding: '0.75rem 1.5rem',

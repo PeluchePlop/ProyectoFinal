@@ -5,6 +5,7 @@ import RoutineList from './components/RoutineList';
 import Summary from './components/Summary';
 import Bienestar from './components/Bienestar';
 import WeatherDisplay from './components/WeatherDisplay';
+import UserLogin from './components/UserLogin'; // ✅ Login Simulado agregado
 
 const App = () => {
   const [actividades, setActividades] = useState(() => {
@@ -40,13 +41,13 @@ const App = () => {
 
   return (
     <div className="app-container">
+      <UserLogin /> {/* 👋 Login simulado */}
       <h1>🌿 Planificador de Bienestar</h1>
 
       <div className="section-box">
         <Bienestar />
       </div>
 
-      
       <div className="row">
         <div className="column section-box">
           <ActivityForm onAddActivity={agregarActividad} />
@@ -55,7 +56,7 @@ const App = () => {
           <RoutineList
             actividades={actividades}
             onDelete={eliminarActividad}
-            onUpdate={actualizarActividad}  // <-- Aquí se pasa la función para actualizar
+            onUpdate={actualizarActividad}
           />
         </div>
       </div>
@@ -63,19 +64,17 @@ const App = () => {
       <div className="section-box">
         <EmotionTracker />
       </div>
-      
-     <div className="section-box">
+
+      <div className="section-box">
         <WeatherDisplay />
       </div>
 
       <div className="footer-box">
-        
         <Summary
           actividades={actividades}
           onClear={borrarTodasLasActividades}
         />
       </div>
-      
     </div>
   );
 };
